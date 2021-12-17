@@ -1,0 +1,44 @@
+<script>
+import categoriaList from './components/categorias/list.vue'
+
+
+export default {
+  name: 'App',
+  components: {
+    categoriaList,
+  },
+  data(){
+    return{
+        isrequest:false
+    }
+
+  },
+  methods:{
+    setIsRequest(respuesta){
+    this.isrequest=respuesta
+      }
+    }
+  }
+</script>
+
+<template>
+  <div>
+    <div v-if="!isrequest">
+      <categoriaList :key="NaN"/>
+    </div>
+  </div>
+</template>
+##############################
+<template>
+  <login/>
+</template>
+
+<script>
+  import login from "@/components/seguridad/login.vue"
+  export default{
+    components :{
+      login
+    }
+  }
+</script>
+###############################

@@ -1,0 +1,3 @@
+<?php //route_name_7d79377536a9a38a9a0f815161321dde
+
+return [PHP_INT_MAX, 'api_categorias_get_collection'];

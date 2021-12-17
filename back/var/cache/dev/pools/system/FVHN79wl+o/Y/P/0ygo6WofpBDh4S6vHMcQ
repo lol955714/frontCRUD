@@ -1,0 +1,3 @@
+<?php //App%255CEntity%255CCategoria%2523getEdadMinima
+
+return [PHP_INT_MAX, []];
